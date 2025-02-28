@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta author="Mauricio Oliveira">
+    <meta description="Website de viagens">
+    <meta keywords="html, css, javascript, website, site, responsivo, viagem, turismo">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buenas Viagens!</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- ==== Barra de navegação fixa, com menu === -->
+    <nav>
+        <div class="logo">Buenas Viagens!</div>
+
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#passeios">Passeios</a>
+            <a href="#destinos">Destinos</a>
+            <a href="#avaliacoes">Avaliações</a>
+        </div>
+    </nav>
+
+    <!-- ==== Banner e Calendário === -->
+    <header>
+        <div class="titulo">
+            Explore o mundo
+        </div>
+
+        <div class="booking">
+            <form>
+                <div>
+                    <label for="destino">Para onde vamos?</label>
+                    <input type="text" id="destino">
+                </div>
+                <div>
+                    <label for="partida">Quando?</label>
+                    <input type="date" id="partida">
+                </div>
+                <div>
+                    <label for="retorno">Retorno?</label>
+                    <input type="date" id="retorno">
+                </div>
+
+                <button type="button">Buscar</button>
+            </form>
+        </div>
+    </header>
+
+    <!-- ==== Passeios === -->
+    <section class="passeios" id="passeios">
+        <div class="info-passeio">
+            <h1>Próximos Passeios & Destinos</h1>
+
+            <hr>
+
+            <p>
+                Explore novos horizontes e viva experiências únicas com nossos próximos passeios e destinos! Se você
+                busca aventura, tranquilidade, ou simplesmente uma pausa do dia a dia, temos opções que atendem todos os
+                gostos e estilos. Desde viagens para as belezas naturais mais deslumbrantes até destinos históricos e
+                culturais fascinantes, oferecemos roteiros cuidadosamente planejados para garantir momentos
+                inesquecíveis.
+
+                Fique atento às novidades! Em breve, estaremos compartilhando detalhes sobre cada destino, dicas
+                especiais para sua viagem, e as melhores ofertas para garantir que você tenha a experiência dos seus
+                sonhos. Prepare-se para explorar o mundo conosco!
+
+                Acompanhe nossas atualizações e embarque nessa jornada conosco!
+
+                Se quiser saber mais ou garantir sua vaga, entre em contato com nossa equipe. Estamos aqui para tornar a
+                sua próxima viagem ainda mais especial!
+            </p>
+
+            <button>Saiba mais</button>
+        </div>
+        <div class="fotos-passeio"></div>
+        <div class="foto">
+            <img src="img/travel01.jpg" alt="Passeio 1">
+            <p>Escute o som das ondas e deixe-se envolver pela tranquilidade de um paraíso tropical. Nossa viagem à
+                beira-mar oferece o refúgio perfeito para quem deseja relaxar, renovar as energias e aproveitar o melhor
+                da vida à praia.</p>
+
+        </div>
+        <div class="fotos-passeio"></div>
+        <div class="foto">
+            <img src="img/travel02.jpg" alt="Passeio 2">
+            <p>Embarque em uma aventura nas alturas! Explore trilhas deslumbrantes, respire o ar fresco das montanhas e
+                viva a emoção de estar em contato direto com a natureza. Uma experiência única para quem busca desafios
+                e paisagens de tirar o fôlego.</p>
+
+        </div>
+        <div class="fotos-passeio"></div>
+        <div class="foto">
+            <img src="img/travel03.jpg" alt="Passeio 3">
+
+            <p>Viaje no tempo e descubra os encantos das cidades históricas! Cada rua, cada monumento, conta uma
+                história. Mergulhe na rica cultura local e deixe-se encantar pela mistura de tradição e modernidade em
+                destinos que respiram história e arte.</p>
+
+        </div>
+        <div class="fotos-passeio"></div>
+        <div class="foto">
+            <img src="img/travel04.jpg" alt="Passeio 4">
+
+            <p>Sinta a liberdade ao conquistar o topo do mundo! Em uma paisagem de tirar o fôlego, explore trilhas que
+                levam até pontos elevados, onde você pode se deslumbrar com vistas impressionantes e um contato profundo
+                com a natureza. Uma jornada perfeita para quem busca aventura e serenidade, cercada pela grandiosidade
+                das montanhas e o poder da paisagem ao seu redor.</p>
+
+        </div>
+    </section>
+    <!-- ==== Destinos === -->
+    <section class="destinos" id="destinos">
+        <h1>Para onde você quer viajar?</h1>
+
+        <div class="grupo-destinos">
+            <!-- Destino 1 -->
+            <div class="card-destino">
+                <img src="img/Barcelona.jpg" alt="Barcelona">
+
+                <div>
+                    <span>Barcelona</span>, Espanha
+                    <p>
+                        Descubra a energia vibrante de Barcelona! A cidade onde a arte e a arquitetura se encontram de
+                        maneira única, com obras de Gaudí, praias deslumbrantes e uma gastronomia rica. Passeie pela La
+                        Rambla, explore o Parque Güell e se encante com as vistas do topo da Sagrada Família. Barcelona
+                        é o destino perfeito para quem deseja imersão cultural e um toque de modernidade.
+                    </p>
+
+                    <div class="valor"></div>
+                    <h3>R$ 3.900,00</h3>
+                    <span class="corte">R$ 4.400,00</span>
+                </div>
+
+                <div class="card-btn">
+                    <button>Saiba mais</button>
+                </div>
+            </div>
+
+            <!-- Destino 2 -->
+            <div class="card-destino">
+                <img src="img/Porto.jpg" alt="Portugal">
+
+                <div>
+                    <span>Porto</span>, Portugal
+                    <p>
+                        Encante-se com a charmosa cidade do Porto, onde a história se mistura à beleza das paisagens à
+                        beira do rio Douro. Explore as estreitas ruas de paralelepípedos, experimente o famoso vinho do
+                        Porto e admire a arquitetura medieval que permeia a cidade. Uma experiência única de cultura,
+                        tradição e paisagens deslumbrantes te espera.
+                    </p>
+
+                    <div class="valor"></div>
+                    <h3>R$ 3.700,00</h3>
+                    <span class="corte">R$ 4.300,00</span>
+                </div>
+
+                <div class="card-btn">
+                    <button>Saiba mais</button>
+                </div>
+            </div>
+            <!-- Destino 3 -->
+            <div class="card-destino">
+                <img src="img/Milan.jpg" alt="itália">
+
+                <div>
+                    <span>Milão</span>, Itália
+                    <p>
+                        Milão é a cidade para quem busca estilo, moda e arte. Além de ser a capital mundial da moda,
+                        Milão oferece uma rica herança cultural, com obras-primas como "A Última Ceia" de Leonardo da
+                        Vinci. Visite a imponente Catedral de Milão e faça compras nas luxuosas lojas de designer.
+                        Prepare-se para ser envolvido pela elegância italiana em cada esquina.
+                    </p>
+
+                    <div class="valor"></div>
+                    <h3>R$ 3.500,00</h3>
+                    <span class="corte">R$ 4.200,00</span>
+                </div>
+
+                <div class="card-btn">
+                    <button>Saiba mais</button>
+                </div>
+            </div>
+            <!-- Destino 4 -->
+            <div class="card-destino">
+                <img src="img/London.jpeg" alt="Inglaterra">
+
+                <div>
+                    <span>Londres</span>, Inglaterra
+                    <p>
+                        Mergulhe na história e na cultura de Londres, uma das cidades mais fascinantes do mundo! Explore
+                        os marcos icônicos como o Big Ben, o Palácio de Buckingham e a Torre de Londres. Aproveite a
+                        rica cena cultural, com teatros, museus renomados e uma gastronomia diversificada. Londres é
+                        sempre um destino vibrante e cheio de surpresas.
+                    </p>
+
+                    <div class="valor"></div>
+                    <h3>R$ 4.200,00</h3>
+                    <span class="corte">R$ 4.900,00</span>
+                </div>
+
+                <div class="card-btn">
+                    <button>Saiba mais</button>
+                </div>
+            </div>
+            <!-- Destino 5 -->
+            <div class="card-destino">
+                <img src="img/Lauterbrunnen.jpeg" alt="Suiça">
+
+                <div>
+                    <span>Lauterbrunnen</span>, Suiça
+                    <p>
+                        Embarque em uma viagem encantadora à Lauterbrunnen, um dos destinos mais deslumbrantes da Suíça.
+                        Cercada por montanhas imponentes e diversas cachoeiras, a cidade oferece uma experiência única
+                        em contato com a natureza. Ideal para quem ama trilhas, esportes de aventura ou simplesmente
+                        deseja relaxar com vistas de tirar o fôlego.
+                    </p>
+
+                    <div class="valor"></div>
+                    <h3>R$ 3.900,00</h3>
+                    <span class="corte">R$ 4.300,00</span>
+                </div>
+
+                <div class="card-btn">
+                    <button>Saiba mais</button>
+                </div>
+            </div>
+            <!-- Destino 6 -->
+            <div class="card-destino">
+                <img src="img/Paris.jpg" alt="França">
+
+                <div>
+                    <span>Paris</span>, França
+                    <p>
+                        A cidade do amor, da arte e da gastronomia! Paris é o destino dos sonhos para todos que buscam
+                        encantamento. Visite a icônica Torre Eiffel, explore o Louvre, passeie pelas charmosas ruas de
+                        Montmartre e desfrute da culinária francesa em cafés típicos. Paris é uma verdadeira obra-prima
+                        onde cada canto conta uma história única.
+                    </p>
+
+                    <div class="valor"></div>
+                    <h3>R$ 4.500,00</h3>
+                    <span class="corte">R$ 5.300,00</span>
+                </div>
+
+                <div class="card-btn">
+                    <button>Saiba mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==== Avaliações === -->
+    <section class="avaliacoes" id="avaliacoes">
+        <h1>Avaliações dos Clientes</h1>
+
+        <div class="carrossel">
+            <div class="cliente">
+                <p> ""A experiência foi simplesmente incrível! Desde o planejamento até a execução da viagem, tudo foi
+                    impecável. O atendimento foi atencioso e sempre disposto a tirar dúvidas, o que fez com que me
+                    sentisse segura e confortável durante toda a jornada. O destino superou todas as expectativas, e eu
+                    certamente recomendaria a todos que buscam uma viagem inesquecível!""</p>
+
+                <img src="img/cliente01.png" alt="Cliente 1">
+
+                <p>
+                    <span>Patrícia</span>, Jornalista
+                </p>
+            </div>
+            <div class="cliente">
+                <p> "Viajar com essa empresa foi uma experiência única. A atenção aos detalhes e o cuidado com cada
+                    parte do itinerário fizeram toda a diferença. As atividades foram bem planejadas, e a cultura local
+                    foi explorada de forma enriquecedora. Um ótimo equilíbrio entre relaxamento e exploração. Sem
+                    dúvida, uma viagem para recordar!"</p>
+
+                <img src="img/cliente02.png" alt="Cliente 2">
+
+                <p>
+                    <span>Isabel</span>, Médica
+                </p>
+            </div>
+            <div class="cliente">
+                <p> "A qualidade do serviço foi excepcional. Cada aspecto da viagem foi pensado para garantir conforto e
+                    momentos especiais. A equipe foi extremamente profissional e a organização impecável. Me senti
+                    totalmente apoiado, desde o início até o final da viagem. Uma experiência que vale a pena repetir!"
+                </p>
+
+                <img src="img/cliente03.png" alt="Cliente 3">
+
+                <p>
+                    <span>Alexandre</span>, Advogado
+                </p>
+            </div>
+
+            <button class="anterior">&#10094;</button>
+            <button class="proximo">&#10095;</button>
+
+        </div>
+    </section>
+
+    <!-- ==== Rodapé === -->
+    <footer>
+        <div class="empresa">
+            <h1 class="logo">Buenas Viagens!</h1>
+
+            <p>
+                <span>Buenas Viagens & Turismo S.A.</span>
+                Avenida da Boa Vista, 1234 Porto, Portugal
+            </p>
+
+            <p>
+                Buenas Viagens & Turismo S.A. &copy; Todos os direitos reservados 2025
+            </p>
+        </div>
+
+        <div class="parceiros">
+            <h3>Nossos Parceiros</h3>
+            <p>Global Travel Agency - Especialistas em roteiros internacionais e serviços personalizados.</p>
+            <p>Hotel Lux - Rede de hotéis renomados, oferecendo o máximo de conforto e hospitalidade.</p>
+            <p>Adventure Tours - Agência especializada em viagens de aventura e ecoturismo.</p>
+            <p>Gastronomia & Sabores - Parceria com restaurantes e chefs premiados, oferecendo experiências
+                gastronômicas exclusivas.</p>
+            <p>Airline Express - Companhia aérea parceira, garantindo viagens seguras e rápidas para os destinos mais
+                procurados.</p>
+
+        </div>
+
+        <div class="newsletter">
+            <h3>ASSINE A NOSSA NEWSLETTER</h3>
+        </div>
+
+        <div class="input_group">
+            <input type="email" placeholder="Informe seu E-mail">
+            <button>Enviar</button>
+        </div>
+
+        <hr>
+
+        <h3>SIGA NOSSAS REDES SOCIAIS</h3>
+
+        <div class="rede-social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+        </div>
+    </footer>
+    <div class="rodape"></div>
+
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
